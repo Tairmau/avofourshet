@@ -1,0 +1,1504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1E1E1E;
+}
+section{
+    height: 100vh;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction:row;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+}
+
+.navcenter{
+    display: flex;
+    margin-left: 300px;
+
+}
+nav img{
+    cursor: pointer;
+}
+nav{
+    margin-top: -50px;
+    text-align: center;
+}
+.logo{
+    width: 190px;
+    height: 100px;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+nav ul li a img{
+    margin-left: 80px;
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+nav .user:hover {
+    animation: iconrotate 1.5s forwards;
+}
+
+@keyframes iconrotate {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+ul li{
+    list-style: none;
+    padding-top: 75px;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'inika', cursive;
+}
+.left h1{
+    margin-top: 250px;
+    margin-left: 300px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Itim', cursive;
+}
+.left p{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'jura', cursive;
+}
+
+.left button{
+    width: 150px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 75px;
+    background-color: #E5BC2B;
+    border: none;
+    border-radius: 20px;
+
+}
+.left button:nth-child(3){
+    margin-right: -150px;
+}
+.left button a{
+    color: rgb(22, 22, 21);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'inika', cursive;
+
+}
+.left button:hover{
+    background-color: #bd9813;
+
+}
+
+.aboutus {
+    display: flex;
+
+}
+
+.accueil{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+}
+.right{
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.right img{
+    width: 1000px;
+    height: 700px;
+}
+.container2 .logo{
+    display: flex;
+    margin-left: 680px;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    margin-top: -200px;
+    margin-bottom: 120px;
+
+}
+.container2 h1{
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 40px;
+    font-family: 'inika', cursive;
+    margin-bottom: 50px;
+    margin-right: 110px;
+}
+.container2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 150vh;
+    padding-left: 150px;
+    background-color: #ffffff;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.read{
+    width: 100px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 3px solid #1E1E1E ;
+    margin-left: 775px;
+    margin-right: auto;}
+.read a{
+
+    color: #1E1E1E;
+    text-decoration: none;
+}
+.read p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'inika', cursive;
+
+}
+.container2 .qsn{
+    width: 600px;
+    height: 120px;
+    background-color: #1E1E1E;
+    margin-top: 300px;
+    margin-left: 525px;
+    margin-right: auto;
+
+
+}
+
+.qsn p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'inika', cursive;
+
+}
+.qsntxt p{
+    font-size: 16px;
+    font-family: 'inika', cursive;
+    padding-top: 80px;
+
+}
+.qsntxt{
+    margin-top: 200px;
+    margin-left: 325px;
+    margin-right: auto;
+    width: 1000px;
+    height: 400px;
+    border: 7px solid #d4aa15 ;
+    text-align: center;
+}
+.contact{
+    margin-top: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 60vh;
+    background-color: #1E1E1E;
+
+}
+
+.blockicon{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+
+}
+.blockicon img{
+    width: 50px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #d9cfcf);
+}
+.blockicon img:hover{
+    animation: iconturn 1.5s forwards;
+
+}
+@keyframes iconturn {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+
+    }
+}
+.container3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container3 button:hover{
+    background-color: #7b67eb;
+}
+.container3 button{
+    background-color: #9687ea;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 26px 12px rgba(0,0,0,0.1);
+}
+.container3 h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'inika', cursive;
+    color: #ffffff;
+}
+.container3 form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container3 form input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 7px;
+    border: none;
+
+}
+.container3 form #climessage{
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+.container3 form button{
+    margin-left: 0px;
+    width: 500px;
+    border-radius: 7px;
+    margin-top: -10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'inika', cursive;
+
+}
+.container3 form input::placeholder{
+    font-size: 15px;
+    font-family: 'inika', cursive;
+
+}
+.connexion{
+    margin-top: 300px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #1E1E1E;
+}
+.connexion form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.connexion input{
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'inika', cursive;
+}
+.connexion p{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(172, 5, 5);
+    font-family: 'inika', cursive;
+
+}
+.connexion h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'inika', cursive;
+
+}
+.connexion button:hover{
+    background-color: #705be8;
+}
+.connexion button{
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'inika', cursive;
+    cursor: pointer;
+    background-color: #9687ea;
+    border: none;
+    border-radius: 7px;
+}
+.connexion a:hover{
+    color: #d4aa15;
+}
+.connexion a{
+    margin-left: auto;
+    margin-right: auto;
+    color: #158ed4;
+}
+.container-compte img{
+    width: 40px;
+    height: 40px;
+    margin-left: 110px;
+}
+.container-compte{
+    margin-top: 150px;
+    position: absolute;
+    display: none;
+    margin-left: 1150px;
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    padding: 70px;
+    z-index: 2;
+}
+.container-compte p:nth-child(2){
+    padding-top: 70px;
+}
+.container-compte #close:hover{
+    color: #924e0f;
+
+}
+.container-compte #close{
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: 'inika', cursive;
+    font-size: 15px;
+    color: #d1751e;
+    font-weight: 900;
+}
+.container-compte p{
+    padding-top: 20px;
+    font-family: 'inika', cursive;
+    font-weight: 900;
+}
+.deconnexion a{
+    text-decoration: none;
+    font-family: 'inika', cursive;
+    font-size: 25px;
+
+}
+.deconnexion:hover{
+    background-color: #705be8;
+}
+.deconnexion{
+    background-color:#7b67eb;
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    margin-left: -45px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+nav button{
+    margin-left: 0px;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+nav img:nth-child(6){
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.container-compte p{
+    margin-top: 10px;
+    color: black;
+    font-family: 'inika', cursive;
+    font-size: 20px;
+
+}
+.container-compte a:nth-child(5){
+    margin-left: 110px;
+    font-family: 'inika', cursive;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.container-compte button a{
+    text-align: center;
+    color: #ffffff;
+}
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-column-gap: 10px;
+    grid-auto-rows: 500px;
+    width: 1500px;
+    grid-gap: 70px;
+    margin-top: 150px;
+    margin-left: 250px;
+    overflow: auto;
+
+}
+.grid-containeradmin{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-column-gap: 10px;
+    grid-auto-rows: 500px;
+    width: 1500px;
+    grid-gap: 70px;
+    margin-top: 150px;
+    margin-left: 250px;
+    overflow: auto;
+}
+.grid-containeradmin .order{
+    background-color:#312e2e;
+    width: 250px;
+    min-height: 10px;
+    max-height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0px 10px 26px 12px rgba(0,0,0,0.1);
+    overflow-wrap: anywhere;
+}
+.grid-containeradmin .order .item button {
+    width: 200px;
+    height: 50px;
+    background-color: #ACA1EC;
+    border-radius: 10px;
+    border: none;
+    margin-left: 25px;
+    position: relative;
+    margin-top: 15px;
+}
+.order .itemAdmin{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.order .item{
+    background-color:#312e2e;
+    width: 250px;
+    min-height: 10px;
+    max-height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0px 10px 26px 12px rgba(0,0,0,0.1);
+    overflow-wrap: anywhere;
+    position: relative;
+}
+.order .carre img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+    filter: drop-shadow(0px 3px 6px #ddcfcf);
+}
+.order .item p{
+    margin-top: 10px;
+    text-align: center;
+}
+.order .item p:nth-child(2){
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+.order .item p:nth-child(3){
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Fugaz One', cursive;
+    color: #d1751e;
+}
+.order .item p:nth-child(4){
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Fugaz One', cursive;
+}
+.order .item p:nth-child(5){
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Fugaz One', cursive;
+}
+.order .item button {
+    width: 200px;
+    height: 50px;
+    background-color: #ACA1EC;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 20px;
+  }
+.order .item button:hover{
+    background-color: #9687ea;
+}
+.order .item button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.carre{
+    width: 200px;
+    height: 170px;
+    background-color: #e5d0d0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.1);
+}
+.addproduct{
+    padding-left: 800px;
+    margin-top: 50px;
+}
+.productmenu h1{
+    margin-top: 20px;
+    font-family: 'Fugaz One', cursive;
+    color: #1E1E1E;
+}
+.productmenu form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    background-color: #FCF2F2;
+    border-radius: 10px;
+
+}
+.productmenu form input{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Fugaz One', cursive;
+}
+.productmenu button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 0%;
+    background-color: #ACA1EC;
+    font-size: 15px;
+    font-family: 'Fugaz One', cursive;
+    cursor: pointer;
+    color: white;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+
+}
+.productmenu label{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #ACA1EC;
+    font-family: 'Fugaz One', cursive;
+    cursor: pointer;
+
+}
+
+.articles {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 650px;
+    height: 100vh;
+    z-index: 10;
+    right: 0;
+    top: 0;
+}
+
+.articles th{
+    font-family: 'inika', cursive;
+    color: #9687ea;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.articles td{
+    font-family: 'inika', cursive;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.panierLi{
+    cursor: pointer;
+}
+.articles .delete img{
+    width: 30px;
+    height: 10px;
+}
+.articles img{
+    width: 50px;
+    height: 50px;
+}
+.articles button a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.articles button{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    background-color: #9687ea;
+    font-family: 'inika', cursive;
+    border: none;
+    border-radius: 5px;
+    bottom: 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+    color: white;
+
+}
+.articles button:hover{
+    background-color: #7564d4;
+
+}
+.total{
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    width: 150px;
+    height: 50px;
+    margin-left: -80px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+.total p{
+    float: left;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'inika', cursive;
+    margin-left: 10px;
+}
+.summarycommande{
+    width: 700px;
+    height: 600px;
+    background-color: blanchedalmond;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.summarycommande th{
+    font-family: 'inika', cursive;
+}
+
+.totalcommandeconf{
+    background-color:#7b67eb;
+    padding: 17px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 660px;
+    margin-bottom: 80px;
+}
+.totalcommandeconf p{
+    font-size: 30px;
+    font-family: 'inika', cursive;
+    color: white;
+}
+.retourorpayer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 300px;
+    margin-bottom: 80px;
+}
+.retourorpayer button a{
+    text-decoration: none;
+    font-family: 'inika', cursive;
+    font-size: 25px;
+    color: white;
+}
+.retourorpayer button{
+    width: 300px;
+    height: 70px;
+    background-color: #7564d4;
+    border: none;
+}
+.retourorpayer button:hover{
+    background-color: #5d49cc;
+}
+.qte{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.livraison .leftliv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.livraison{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 700px;
+}
+.livraison .leftliv input{
+    margin-top: 30px;
+    font-family: 'inika', cursive;
+}
+.livraison .leftliv label{
+    margin-top: 30px;
+    font-family: 'inika', cursive;
+}
+.leftliv h1{
+    font-family: 'inika', cursive;
+    font-size: 30px;
+
+}
+.livraison .right{
+    margin-left: 500px;
+    margin-top: -30px;
+}
+.livraison .right h1{
+    font-family: 'inika', cursive;
+    font-size: 30px;
+    color: white;
+}
+.livraison .right form{
+    display: flex;
+    flex-direction: column;
+}
+.livraison .right form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 500px;
+}
+.livraison .right form label{
+    font-family: 'inika', cursive;
+    font-weight: 900;
+    color: white;
+}
+.livraison .right form button{
+    width: 500px;
+    height: 50px;
+    background-color: #34A13F;
+    color: white;
+    font-family: 'inika', cursive;
+    font-size: 30px;
+    border: none;
+    font-weight: 900;
+}
+.livraison .error-msg{
+    color: red;
+    font-family: 'inika', cursive;
+    margin-bottom: 10px;
+}
+.paypal{
+
+    margin-top: 300px;
+    margin-left: 700px;
+    width: 500px;
+}
+.totalcommandepaypal{
+    background-color: #7564d4;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.totalcommandepaypal p{
+    color: white;
+    font-family: 'inika', cursive;
+    text-align: center;
+}
+@media only screen and (max-width : 481px){
+
+    .container{
+        position: absolute;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .navcenter{
+        display: flex;
+        margin-left: 0px;
+    
+    }
+    nav img{
+        cursor: pointer;
+    }
+    nav{
+        margin-top: -50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 800px;
+        height: 500px;
+        margin-top: -40px;
+        margin-right: 100px;
+    }
+    nav ul li:nth-child(6) a img{
+        width: 100px;
+        height: 100px;
+        margin-top: -15px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    nav ul li:nth-child(7) a img{
+        width: 100px;
+        height: 100px;
+        margin-top: -15px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding-top: 50px;
+    }
+
+    ul a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'inika', cursive;
+        font-size: 50px;
+    }
+    .right img{
+        display: none;
+    }
+    .left h1{
+        margin-top: 650px;
+        margin-left: 170px;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        font-family: 'Itim', cursive;
+    }
+    .left p{
+        margin-top: 70px;
+        margin-left: 170px;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        font-family: 'jura', cursive;
+    }
+    
+    .left button{
+        width: 500px;
+        height: 100px;
+        margin-left: 170px;
+        margin-top: 75px;
+        background-color: #E5BC2B;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 100px;
+    }
+    .left button:nth-child(3){
+        margin-right: -150px;
+    }
+    .left button a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 50px;
+        font-family: 'inika', cursive;
+        font-weight: 900;
+    
+    }
+    .contact{
+        margin-top: 2500px;
+        position: absolute;
+        margin-left: 200px;
+        height: 60vh;
+        background-color: #1E1E1E;
+    
+    }
+    .blockicon{
+        margin-left: -120px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 100px;
+    
+    }
+    .blockicon img{
+        width: 100px;
+        cursor: pointer;
+        filter: drop-shadow(0px 0px 5px #d9cfcf);
+    }
+    .blockform{
+        margin-left: -200px;
+    }
+    .container3 h1{
+        margin-left: -120px;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+        font-family: 'inika', cursive;
+        color: #ffffff;
+    }
+    .container3 form{
+        
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container3 form input{
+        width: 800px;
+        height: 100px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 7px;
+        font-family: 'inika', cursive;
+        border: none;
+    }
+    .container3 form #climessage{
+        padding-top: 50px;
+        padding-bottom: 300px;
+    }
+    .container3 form button{
+        margin-left: 0px;
+        width: 800px;
+        height: 100px;
+        border-radius: 7px;
+        margin-top: 0px;
+        color: white;
+        font-size: 40px;
+        font-family: 'inika', cursive;
+        margin-bottom: 100px;
+    }
+    .container3 form input::placeholder{
+        font-size: 30px;
+        font-family: 'inika', cursive;
+    
+    }
+
+    .container2 .logo{
+        display: flex;
+        margin-left: -60px;
+        margin-right: auto;
+        width: 700px;
+        height: 300px;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    
+    }
+    .container2 h1{
+        text-align: center;
+        color: #1E1E1E;
+        font-size: 50px;
+        font-family: 'inika', cursive;
+        margin-bottom: 50px;
+        margin-right: 170px;
+    }
+    .container2{
+        position: relative;
+        right: 0;
+        left: 0;
+        height: 2500px;
+        width: 975px;
+        padding-left: 200px;
+        background-color: #ffffff;
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    
+    .read{
+        width: 300px;
+        height: 100px;
+        background-color: #ffffff;
+        border: 3px solid #1E1E1E ;
+        margin-left: auto;
+        margin-right: 330px;
+        margin-top: 100px;
+        padding-top: 10px;
+
+    }
+    .read a{
+        font-family: 'inika', cursive;
+        color: #1E1E1E;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .read p{
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'inika', cursive;
+    
+    }
+    .container2 .qsn{
+        width: 600px;
+        height: 120px;
+        background-color: #1E1E1E;
+        margin-top: 300px;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    
+    .qsn p{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 30px;
+        color: white;
+        font-family: 'inika', cursive;
+    }
+    .qsntxt p{
+        font-size: 25px;
+        font-family: 'inika', cursive;
+        padding-top: 50px;
+    }
+    .qsntxt{
+        position: relative;
+        padding-right: 0px;
+        margin-top: 200px;
+        margin-left: -160px;
+        margin-right: auto;
+        width: 900px;
+        height: 600px;
+        border: 7px solid #d4aa15 ;
+        text-align: center;
+    }
+
+    .connexion{
+        margin-top: 300px;
+        position: relative;
+        right: 0;
+        left: 0;
+        height: 100vh;
+        background-color: #1E1E1E;
+    }
+    .connexion form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .connexion input{
+        width: 800px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'inika', cursive;
+    }
+    .connexion p{
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(172, 5, 5);
+        font-family: 'inika', cursive;
+        font-size: 30px;
+    }
+    .connexion h1{
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-family: 'inika', cursive;
+        font-size: 50px;
+    }
+    .connexion button{
+        margin-top: 30px;
+        width: 800px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-size: 40px;
+        font-family: 'inika', cursive;
+        cursor: pointer;
+        background-color: #9687ea;
+        border: none;
+        border-radius: 7px;
+    }
+    .connexion a:hover{
+        color: #d4aa15;
+    }
+    .connexion a{
+        margin-left: auto;
+        margin-right: auto;
+        color: #158ed4;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .grid-container {
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        margin-top: 1000px;
+        margin-left: 150px;
+    }
+
+    .grid-container .order .item{
+        background-color:#ff0000;
+        min-height: 10px;
+        width: 1250px;
+        max-height: 2500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        box-shadow: 0px 10px 26px 12px rgba(0,0,0,0.1);
+        overflow-wrap: anywhere;
+        margin-bottom: 100px;
+    }
+
+    .container-compte{
+        margin-top: 50px;
+        position: fixed;
+        display: none;
+        margin-left: 50px;
+        background-color: blanchedalmond;
+        width: 880px;
+        height: 1200px;
+        border: none;
+        border-radius: 20px;
+        padding: 70px;
+        z-index: 2;
+        
+    }
+    .container-compte img{
+        width: 300px;
+        height: 300px;
+        margin-left: 220px;
+    }
+    .container-compte p:nth-child(2){
+        padding-top: 200px;
+    }
+    .container-compte #close:hover{
+        color: #924e0f;
+    
+    }
+    .container-compte #close{
+        text-decoration: none;
+        margin-left: 300px;
+        font-family: 'inika', cursive;
+        font-size: 40px;
+        color: #d1751e;
+        font-weight: 900;
+    }
+    .container-compte p{
+        padding-top: 20px;
+        font-family: 'inika', cursive;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .deconnexion a{
+        text-decoration: none;
+        font-family: 'inika', cursive;
+        font-size: 40px;
+    
+    }
+    .deconnexion:hover{
+        background-color: #705be8;
+    }
+    .deconnexion{
+        background-color:#7b67eb;
+        width: 850px;
+        height: 200px;
+        border: none;
+        border-radius: 20px;
+        margin-left: -30px;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+
+    .articles {
+        display: none;
+        position: fixed;
+        background-color: blanchedalmond;
+        width: 800px;
+        height: 1800px;
+        z-index: 10;
+        top: 0;
+    }
+    
+    .articles th{
+        font-size: 22px;
+        font-family: 'inika', cursive;
+        color: #9687ea;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .articles td{
+        font-family: 'inika', cursive;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 10px;
+
+    }
+    
+    .panierLi{
+        cursor: pointer;
+    }
+    .articles .delete img{
+        width: 50px;
+        height: 10px;
+    }
+    .articles img{
+        width: 100px;
+        height: 100px;
+    }
+    .articles button {
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+    }
+    .articles button{
+        width: 500px;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        background-color: #9687ea;
+        font-family: 'inika', cursive;
+        border: none;
+        border-radius: 5px;
+        bottom: 0;
+        margin-bottom: 40px;
+        cursor: pointer;
+        color: white;
+
+    }
+    .articles button:hover{
+        background-color: #7564d4;
+    
+    }
+    .articles .total{
+        background-color: rgb(255, 255, 255);
+        border: 1px black solid;
+        width: 200px;
+        height: 100px;
+        margin-left: -80px;
+        margin-top: 50px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 40px;
+    }
+    .articles .total p{
+        float: left;
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: 'inika', cursive;
+        margin-left: 20px;
+    }
+
+    .summarycommande{
+        width: 850px;
+        height: 1000px;
+        background-color: blanchedalmond;
+        margin-left: 70px;
+        margin-top: 300px;
+        border-radius: 10px;
+        overflow: auto;
+        margin-bottom: 100px;
+    }
+    .summarycommande th{
+        font-family: 'inika', cursive;
+        font-size: 29px;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .summarycommande td{
+        font-size: 25px;
+    }
+    .totalcommandeconf{
+        background-color:#7b67eb;
+        padding: 17px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 660px;
+        margin-bottom: 150px;
+    }
+    .totalcommandeconf p{
+        font-size: 30px;
+        font-family: 'inika', cursive;
+        color: white;
+    }
+
+    .retourorpayer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 120px;
+        margin-bottom: 150px;
+    }
+    .retourorpayer button a{
+        text-decoration: none;
+        font-family: 'inika', cursive;
+        font-size: 25px;
+        color: white;
+    }
+    .retourorpayer button{
+        width: 400px;
+        height: 70px;
+        background-color: #7564d4;
+        border: none;
+    }
+    .retourorpayer button:hover{
+        background-color: #5d49cc;
+    }
+
+    .livraison .leftliv{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .livraison{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        width: 700px;
+    }
+    .livraison .leftliv input{
+        margin-top: 30px;
+        font-family: 'inika', cursive;
+        width: 50px;
+        height: 50px;
+        margin-left: 150px;
+    }
+    .livraison .leftliv label{
+        margin-top: 30px;
+        font-family: 'inika', cursive;
+        font-size: 30px;
+
+    }
+    .leftliv h1{
+        text-align: center;
+        font-family: 'inika', cursive;
+        font-size: 60px;
+    }
+
+    .livraison .right{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+    .livraison .right h1{
+        font-family: 'inika', cursive;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    .livraison .right form input{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        height: 100px;
+        width: 600px;
+    }
+    .livraison .right form label{
+        font-family: 'inika', cursive;
+        font-weight: 900;
+        color: white;
+        font-size: 30px;
+    }
+    .livraison .right form button{
+        width: 600px;
+        height: 100px;
+        background-color: #34A13F;
+        color: white;
+        font-family: 'inika', cursive;
+        font-size: 30px;
+        border: none;
+        font-weight: 900;
+        margin-bottom: 100px;
+    }
+    .livraison .error-msg{
+        color: red;
+        font-family: 'inika', cursive;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .paypal{
+        margin-top: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 200px;
+
+        width: 700px;
+    }
+    .totalcommandepaypal{
+        background-color: #7564d4;
+        padding: 10px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        height: 100px;
+    }
+    .totalcommandepaypal p{
+        color: white;
+        font-family: 'inika', cursive;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+}
